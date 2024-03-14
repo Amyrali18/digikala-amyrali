@@ -171,7 +171,7 @@ header {
               transition: 100ms;
               border-bottom: 2px solid transparent;
 
-              .scale__svgs{
+              .scale__svgs {
                 transform: scale(0.8);
               }
             }
@@ -232,7 +232,7 @@ header {
               transition: 300ms;
               transition-delay: 400ms;
               display: none;
-              &:hover{
+              &:hover {
                 display: block;
               }
               .mega__parent {
@@ -287,22 +287,19 @@ header {
                         line-height: 50px;
                         text-align: right;
                         transition: 300ms;
-                        
                       }
-                      &:hover{ 
+                      &:hover {
                         background-color: white;
                       }
-                      &:hover span{
+                      &:hover span {
                         color: crimson;
                       }
-
                     }
-                    &:hover ~ .sub__mega__parent{
+                    &:hover ~ .sub__mega__parent {
                       display: flex;
                     }
-                    
                   }
-                  
+
                   .sub__mega__parent {
                     width: 955px;
                     height: 70vh;
@@ -313,7 +310,7 @@ header {
                     overflow-y: auto;
                     overflow-x: hidden;
                     display: none;
-                    &:hover{
+                    &:hover {
                       display: flex;
                     }
                     .sub__mega {
@@ -370,7 +367,7 @@ header {
                             text-decoration: none;
                             display: flex;
                             justify-content: flex-end;
-                            &:hover{
+                            &:hover {
                               color: crimson;
                             }
                           }
@@ -386,12 +383,11 @@ header {
                               height: 50%;
                               background-color: red;
                               margin-left: 8px;
-
                             }
                             & p {
                               font-size: 14px;
                               font-weight: bold;
-                              &:hover{
+                              &:hover {
                                 color: crimson;
                               }
                             }
@@ -403,7 +399,7 @@ header {
                       }
                     }
                   }
-                  .first__menu__slidee{
+                  .first__menu__slidee {
                     display: flex;
                   }
                 }
@@ -522,7 +518,7 @@ header {
                   font-weight: 700;
                 }
               }
-              .city__name  {
+              .city__name {
                 width: 420px;
                 height: 60px;
                 display: flex;
@@ -537,7 +533,7 @@ header {
                   color: black;
                 }
               }
-              .last__city{
+              .last__city {
                 width: 420px;
                 height: 60px;
                 display: flex;
@@ -550,7 +546,7 @@ header {
                   font-weight: 500;
                   color: black;
                 }
-                            }
+              }
             }
           }
         }
