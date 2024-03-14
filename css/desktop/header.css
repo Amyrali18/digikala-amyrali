@@ -170,7 +170,6 @@ header {
             .nav__Item {
               transition: 100ms;
               border-bottom: 2px solid transparent;
-
               .scale__svgs {
                 transform: scale(0.8);
               }
@@ -178,7 +177,6 @@ header {
             .nav__Item:hover {
               border-bottom: 2px solid crimson;
             }
-
             .active {
               width: fit-content;
               column-gap: 5px;
